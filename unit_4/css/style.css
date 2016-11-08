@@ -10,7 +10,8 @@ h1{
 	color: #191919;
 	text-align: center;
 	font-family: 'Oswald', sans-serif;
-	font-size:;
+	font-size: 100px;
+	line-height: 3em;
 }
 #center{
 	text-align: center;
@@ -18,6 +19,7 @@ h1{
 #slogan{
 	font-style: italic;
 	text-align: center;
+	line-height: 2em;
 }
 .proj_header{
 	font-family: 'Oswald', sans-serif;
