@@ -81,7 +81,7 @@ h3.tile-headline {
 	line-height: 1.5em;
 	letter-spacing: .03em;
 	text-align: center;
-	margin-top: 5em;
+	margin-top: 0em;
 
 }
 #about {
@@ -95,13 +95,13 @@ h3.tile-headline {
 	line-height: 1.5em;
 	letter-spacing: .05em;
 	text-align: center;
-	margin-top: 1em;
+	padding: 10px;
 }
 .about-text{
 	display: block;
 	line-height: 1.5em;
 	text-align: center;
-	margin-top: 2em;
+	padding: 10px;
 }
 footer {
 	display: block;
@@ -119,8 +119,10 @@ footer {
     vertical-align: bottom;
     font-family: 'Oswald', sans-serif;
     font-size: 30px;
-	line-height: 1.5em;
-	letter-spacing: .05em;
+}
+
+.footer-headline {
+  font-size: 16px;
 }
 
 .footer-subhead {
@@ -136,5 +138,27 @@ footer {
     margin-right: 0;
     font-size: 30px;
     line-height: 1.5em;
+}
+#two_column {
+	background-color: white;
+    border: 0px black solid;
+    padding: 20px;
+    margin: 1em;
+}
+
+#left {
+    background-color: white;
+    border: 0px black solid;
+    padding: 10px;
+    float: left;
+    width: 40%;
+}
+
+#right {
+	background-color: white;
+    border: 0px black solid;
+    padding: 20px;
+    float: right;   
+    width: 57%;
 }
 
