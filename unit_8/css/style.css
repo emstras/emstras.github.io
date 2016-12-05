@@ -1,0 +1,178 @@
+
+
+
+*,
+*:after,
+*:before {
+	margin: 0;
+	padding: 0;
+	-moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.clear:after {
+	content:" ";
+	clear: both;
+	display: block;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: #373737;
+}
+header {
+	text-align: center;
+}
+
+h1{
+	color: #373737;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-size: 100px;
+	line-height: 2em;
+	margin: 2em;
+	display: block;
+}
+
+h3{
+	color: #373737;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	/*line-height: 1.5em;*/
+
+}
+
+#project-intro{
+	display: block;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 30px;
+	margin: 2em 4em 2em 4em;
+	line-height: 1.5em;
+}
+
+#tiles {
+	width: 100%;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.tile-box {
+	width: 33.333%;
+	float: left;
+	padding: 20px;
+}
+
+.tile-box-inner {
+	border: 1px solid #000;
+	text-align: center;
+	display: block;
+	position: relative;
+}
+
+
+.tile-headline {
+	text-align: center;
+	font-size: 18px;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 100%;
+
+}
+
+.about-headline{
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+	line-height: 1.5em;
+	letter-spacing: .03em;
+	text-align: center;
+	margin-top: 0em;
+
+}
+#about {
+	width: 100%;
+	max-width: 600px;
+	margin: 0 auto;
+	background-color: red;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.about-subhead{
+	font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+	line-height: 1em;
+	letter-spacing: .01em;
+	text-align: center;
+	padding: 10px;
+}
+.about-text{
+	display: block;
+	line-height: 1.5em;
+	text-align: center;
+	padding: 10px;
+}
+footer {
+	display: block;
+   margin-top: 6em;
+   margin-bottom: 2em;
+}
+.footer-icons a {
+    width: 40px;
+    float: right;
+    display: block;
+    margin-left: 5px;
+
+}
+.footer-icons a img {
+    width: 100%;
+    display: block;
+    
+}
+.footer-text {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.footer-headline {
+  font-size: 16px;
+}
+
+.footer-subhead {
+	display: block;
+    margin-left: 0px;
+    margin-right: 6em;
+}
+.footer-email {
+	display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 40px;
+    margin-right: 0;
+    font-size: 30px;
+    line-height: 1.5em;
+}
+#two_column {
+	background-color: white;
+    border: 0px black solid;
+    padding: 20px;
+    margin: 1em;
+}
+
+#left {
+    background-color: white;
+    border: 0px black solid;
+    float: left;
+    width: 40%;
+}
+
+#right {
+	background-color: white;
+    border: 0px black solid;
+    float: right;   
+    width: 60%;
+}
+
